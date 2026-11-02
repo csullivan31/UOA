@@ -1,0 +1,1 @@
+Efficient software avoids unnecessary work.

@@ -1,0 +1,16 @@
+[project]
+name = "ultra-optimize-anything"
+version = "0.1.0"
+description = "Local, evidence-driven software optimization workflows."
+requires-python = ">=3.11"
+license = "GPL-3.0-only"
+
+[project.scripts]
+uoa = "uoa.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["uoa*"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,12 @@
+{
+  "id": "search-example-v1",
+  "command": ["python3", "file_search.py", "corpus", "efficient"],
+  "checks": [["python3", "check_search.py"]],
+  "target_files": ["file_search.py"],
+  "input_files": ["corpus/one.txt", "corpus/two.txt", "corpus/three.txt"],
+  "verification_files": ["check_search.py"],
+  "repetitions": 5,
+  "warmups": 1,
+  "timeout_seconds": 5,
+  "environment_label": "local-development-uncontrolled"
+}

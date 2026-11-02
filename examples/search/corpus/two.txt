@@ -1,0 +1,1 @@
+Straße is matched using Unicode case folding.
